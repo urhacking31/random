@@ -41,7 +41,7 @@ def delete_main_script():
 
 if __name__ == "__main__":
     current_date = datetime.datetime.now()
-    expiration_date = datetime.datetime(2024, 5, 15)
+    expiration_date = datetime.datetime(2024, 5, 17)
 
     if len(sys.argv) != 4:
         print("Usage: python script.py target port duration")
